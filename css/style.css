@@ -3,15 +3,17 @@
 /* link the web font used for the level 1 heading here */
 @import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 
-header {
+header a {
 	position: relative;
 	font-size: 175%;
 	top: 10px;
-}
-
-h1 {
+	text-decoration: none;
 	font-family: 'Baskervville', serif;
 	color: rgb(112, 180, 169);
+}
+
+header a:hover{
+	color: rgb(71, 114, 107);
 }
 
 h2 {
