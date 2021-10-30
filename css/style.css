@@ -1,8 +1,35 @@
 /*////////////// Fonts //////////////*/
 
 /* link the web font used for the level 1 heading here */
+@import url('https://fonts.googleapis.com/css2?family=Baskervville&display=swap');
 
+header {
+	position: relative;
+	font-size: 175%;
+	top: 10px;
+}
+
+h1 {
+	font-family: 'Baskervville', serif;
+	color: rgb(112, 180, 169);
+}
+
+h2 {
+	color: rgb(137, 179, 172);
+}
 /*////////// Global Styles //////////*/
+
+img {
+	border-style: solid;
+	border-color: red;
+	border-width: 5px;
+}
+
+img:hover {
+	border-style: solid;
+	border-color: blue;
+	border-width: 5px;
+}
 
 body {
 	background: #F3EBE9;
@@ -17,4 +44,7 @@ body {
 	padding: 0 45px 20px;
 }
 
+footer {
+	text-align: right;
+}
 /* Write all remaining styles here */
